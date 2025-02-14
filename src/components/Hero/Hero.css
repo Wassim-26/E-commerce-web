@@ -1,0 +1,59 @@
+#hero {
+  padding: 8px 32px;
+  display: flex;
+}
+#hero .left {
+  padding: 12px;
+  border: 1px solid black;
+}
+#hero .left .smalleTitle {
+  color: purple;
+  font-size: 32px;
+  font-family: "gol";
+}
+#hero .left .bigTitle {
+  color: rgb(0, 0, 0);
+  font-size: 62px;
+}
+#hero .left .bigTitle span {
+  color: purple;
+}
+#hero .left p {
+  color: rgb(103, 103, 103);
+  font-size: 22px;
+}
+#hero .left button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 26px;
+  background-color: purple;
+  color: white;
+}
+#hero .right {
+  margin-left: 242px;
+  border: 1px solid rgb(20, 206, 45);
+}
+#hero .right .bigImg {
+  filter: drop-shadow(0 0 0.95rem #800080);
+}
+#hero .right .miniImgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#hero .right .miniImgs img {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0 8px;
+  cursor: pointer;
+}
+#hero .right .miniImgs img:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 1s all ease;
+}
+@font-face {
+  font-family: "gol";
+  src: url("path/demo.otf") format("opentype");
+}
