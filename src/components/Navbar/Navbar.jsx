@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="search-container">
         <input
           type="search"
-          placeholder="What do you want?"
+          placeholder="What do you want ?"
           value={value} //2-link the input whith the value variable
           onChange={function (event) {
             // 3-update the value variable whith on change event
